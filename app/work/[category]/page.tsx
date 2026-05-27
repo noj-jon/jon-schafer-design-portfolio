@@ -39,7 +39,7 @@ export default function CategoryPage() {
       <header className="fixed top-0 left-0 right-0 z-50 px-6 lg:px-8 py-5 bg-background/80 backdrop-blur-sm border-b border-border/40">
         <div className="max-w-7xl mx-auto grid grid-cols-3 items-center">
           <Link
-            href={`/work/${categorySlug}`}
+            href="/#portfolio"
             className="inline-flex items-center gap-2 text-sm text-muted-foreground hover:text-foreground transition-colors justify-self-start"
           >
             <ArrowLeft className="w-4 h-4" />
